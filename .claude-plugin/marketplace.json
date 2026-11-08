@@ -1,0 +1,17 @@
+{
+  "name": "kettlesong",
+  "owner": {
+    "name": "Alberto Arena"
+  },
+  "metadata": {
+    "description": "The Kettlesong output style for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "kettlesong",
+      "source": "./",
+      "description": "An output style with a short, playful fellowship voice in chat. Code and written artifacts stay clean.",
+      "version": "0.1.0"
+    }
+  ]
+}

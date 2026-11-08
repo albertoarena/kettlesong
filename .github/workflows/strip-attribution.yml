@@ -1,0 +1,26 @@
+name: Strip attribution
+
+# Removes AI attribution lines that a platform adds to a pull request body.
+# The job does not check out code, so pull_request_target is safe here.
+on:
+  pull_request_target:
+    types: [opened, edited]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  strip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove attribution lines from the body
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          body="$(gh pr view "$PR" --repo "$REPO" --json body --jq .body)"
+          clean="$(printf '%s\n' "$body" | sed -E '/Generated (with|by) \[?Claude Code/d; /^Co-Authored-By: Claude/Id')"
+          if [ "$clean" != "$body" ]; then
+            gh pr edit "$PR" --repo "$REPO" --body "$clean"
+          fi

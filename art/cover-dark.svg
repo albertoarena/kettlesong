@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 526" width="960" height="526" role="img" aria-labelledby="t"><title id="t">Kettlesong: a green text banner, an italic greeting, and four text figures for a bug, passing tests, a refactor and a finished task.</title>
+<text x="269.4" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#9198a1" xml:space="preserve">&gt; Hi</text>
+<rect x="255.4" y="62" width="449.2" height="23" fill="#12261e"/>
+<rect x="255.4" y="85" width="449.2" height="23" fill="#12261e"/>
+<rect x="255.4" y="108" width="449.2" height="23" fill="#12261e"/>
+<rect x="255.4" y="131" width="449.2" height="23" fill="#12261e"/>
+<rect x="255.4" y="154" width="449.2" height="23" fill="#12261e"/>
+<rect x="255.4" y="177" width="449.2" height="23" fill="#12261e"/>
+<rect x="255.4" y="200" width="449.2" height="23" fill="#12261e"/>
+<rect x="255.4" y="223" width="449.2" height="23" fill="#12261e"/>
+<text x="269.4" y="79.02" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="18" fill="#3fb950" xml:space="preserve" >
+<tspan x="269.4" y="79.02">+</tspan>
+<tspan x="269.4" y="102.02">+</tspan>
+<tspan x="269.4" y="125.02">+</tspan>
+<tspan x="269.4" y="148.01999999999998">+</tspan>
+<tspan x="269.4" y="171.01999999999998">+</tspan>
+<tspan x="269.4" y="194.01999999999998">+</tspan>
+<tspan x="269.4" y="217.01999999999998">+</tspan>
+<tspan x="269.4" y="240.01999999999998">+</tspan>
+</text>
+<text x="269.4" y="79.02" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="18" fill="#3fb950" xml:space="preserve" font-weight="600">
+<tspan x="269.4" y="79.02">         |        |   |  |</tspan>
+<tspan x="269.4" y="102.02">         |    __ _|_ _|_ |   __</tspan>
+<tspan x="269.4" y="125.02">         |_( /_   |   |  |  /_</tspan>
+<tspan x="269.4" y="148.01999999999998">         | \ \__  |_  |_ |_ \__</tspan>
+<tspan x="269.4" y="171.01999999999998">                       _  __   _    __</tspan>
+<tspan x="269.4" y="194.01999999999998">                     (_  /  \ |\ | /  |</tspan>
+<tspan x="269.4" y="217.01999999999998">                     __) \__/ | \| \__|</tspan>
+<tspan x="269.4" y="240.01999999999998">                                    __/</tspan>
+</text>
+<text x="480.0" y="286" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" font-style="italic" fill="#d1d7e0">Good to see you, master; the lamps are lit and the path is clear.</text>
+<text x="52.5" y="342" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#d1d7e0" xml:space="preserve" font-weight="500">
+<tspan x="52.5" y="342">        /\     |\</tspan>
+<tspan x="52.5" y="359">       /  \    | \</tspan>
+<tspan x="52.5" y="376">      ( -. )   |  \</tspan>
+<tspan x="52.5" y="393">       \__/    |   &gt;----&gt;</tspan>
+<tspan x="52.5" y="410">     __/  \____|  /</tspan>
+<tspan x="52.5" y="427">       |  |    | /</tspan>
+<tspan x="52.5" y="444">       |  |    |/</tspan>
+<tspan x="52.5" y="461">      _/  \_</tspan>
+</text>
+<text x="157.5" y="492" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#9198a1">a bug is found</text>
+<text x="301.1" y="359" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#d1d7e0" xml:space="preserve" font-weight="500">
+<tspan x="301.1" y="359">             /|\</tspan>
+<tspan x="301.1" y="376">   .-^^^-.  &lt; | &gt;</tspan>
+<tspan x="301.1" y="393">  ( o   o )  \|/</tspan>
+<tspan x="301.1" y="410">  {\\\|///}___|</tspan>
+<tspan x="301.1" y="427">  {\\\|///}   |</tspan>
+<tspan x="301.1" y="444">  /|_____|\   |</tspan>
+<tspan x="301.1" y="461">   (_)  (_)</tspan>
+</text>
+<text x="372.5" y="492" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#9198a1">the tests pass</text>
+<text x="503.5" y="342" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#d1d7e0" xml:space="preserve" font-weight="500">
+<tspan x="503.5" y="342">         /\        *</tspan>
+<tspan x="503.5" y="359">        /* \       |</tspan>
+<tspan x="503.5" y="376">       /____\      |</tspan>
+<tspan x="503.5" y="393">      ( o  o )     |</tspan>
+<tspan x="503.5" y="410">      (  \/  )_____|</tspan>
+<tspan x="503.5" y="427">       \ || /      |</tspan>
+<tspan x="503.5" y="444">       /\||/\      |</tspan>
+<tspan x="503.5" y="461">      /__||__\     |</tspan>
+</text>
+<text x="587.5" y="492" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#9198a1">a refactor plan</text>
+<text x="718.5" y="359" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#d1d7e0" xml:space="preserve" font-weight="500">
+<tspan x="718.5" y="359">     ,@@@,       ) )</tspan>
+<tspan x="718.5" y="376">    (@o o@)     ( (</tspan>
+<tspan x="718.5" y="393">     ( ~ )      c[_]</tspan>
+<tspan x="718.5" y="410">   .-&#x27;---&#x27;-.____/</tspan>
+<tspan x="718.5" y="427">  /|       |</tspan>
+<tspan x="718.5" y="444">   |_______|</tspan>
+<tspan x="718.5" y="461">    (_)  (_)</tspan>
+</text>
+<text x="802.5" y="492" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#9198a1">the task is done</text>
+</svg>
