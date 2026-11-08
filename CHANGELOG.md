@@ -6,6 +6,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-11-08
+
 ### Added
 
 - The Kettlesong output style: a short fellowship voice in chat, with clean code and written artifacts.
@@ -14,3 +16,6 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 - Text art: a green session banner and small figures for key moments. By default, a figure appears at every matching moment.
 - Languages: English and Italian.
 - The eval suite for `claude plugin eval`.
+
+[Unreleased]: https://github.com/albertoarena/kettlesong/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/albertoarena/kettlesong/releases/tag/v0.1.0
