@@ -6,15 +6,16 @@ Run from the repo root after you change the banner or one of the cover figures:
 
 The cover shows a real reply: the prompt, the banner in a diff block (green),
 an italic themed line, and four figures in the order of one session.
-The colors are the GitHub diff colors for each theme.
+The colors are the GitHub diff colors for each theme. Each cover has a solid
+background, so it stays readable on a page of the other theme.
 """
 import html
 
 WIDTH = 960
 MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
 THEMES = {
-    "light": {"row": "#dafbe1", "green": "#1a7f37", "fg": "#1f2328", "muted": "#59636e"},
-    "dark": {"row": "#12261e", "green": "#3fb950", "fg": "#d1d7e0", "muted": "#9198a1"},
+    "light": {"bg": "#ffffff", "row": "#dafbe1", "green": "#1a7f37", "fg": "#1f2328", "muted": "#59636e"},
+    "dark": {"bg": "#0d1117", "row": "#12261e", "green": "#3fb950", "fg": "#d1d7e0", "muted": "#9198a1"},
 }
 PROMPT = "&gt; Hi"
 THEMED_LINE = "Good to see you, master; the lamps are lit and the path is clear."
@@ -86,6 +87,7 @@ def build(theme):
     head = (
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {height}" width="{WIDTH}" height="{height}" role="img" aria-labelledby="t">'
         f'<title id="t">{TITLE}</title>'
+        f'<rect width="{WIDTH}" height="{height}" rx="12" fill="{c["bg"]}"/>'
     )
     return head + "\n" + "\n".join(s) + "\n</svg>\n"
 
