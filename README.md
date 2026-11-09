@@ -7,7 +7,7 @@
 
 > A fantasy-fellowship voice for Claude Code. Your agent still writes clean code. It just talks like a cosy fellow traveler.
 
-**Status:** latest release (0.1.1).
+**Status:** latest release (0.1.2).
 
 Kettlesong is a Claude Code plugin that ships one **output style**. When the style is active, Claude greets you, asks questions, reports failing tests and celebrates green tests with short lines in a cosy fantasy tone. It calls you "master" (you can change this). The themed lines are in italics, so they stand apart from the technical answer.
 
@@ -151,6 +151,14 @@ The style tells Claude to follow these rules. An eval suite (`evals/`) checks th
 - **Claude codes worse with the style on:** `keep-coding-instructions` works only with the full system prompt. Set `CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0`. It selects the full system prompt on any model.
 - **The banner shows `+` signs with no color:** your client does not color `diff` blocks. The banner still reads correctly.
 - **Subagents talk normally:** this is expected. Subagents use their own system prompt.
+
+## Privacy
+
+Kettlesong collects no data. It is one output style: a Markdown file with instructions for Claude. It has no code, hooks, MCP servers or connectors, and it sends nothing to any service.
+
+The optional settings, such as `kettlesong.address`, stay in your own `CLAUDE.md`. Claude Code reads that file as usual. Kettlesong does not store or send them.
+
+Your conversations go to Anthropic under your own Claude Code terms. Kettlesong adds no other recipient.
 
 ## Disclaimer
 
