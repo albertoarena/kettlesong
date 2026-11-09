@@ -363,3 +363,8 @@ Source: maintainer choice (variant A), 2026-11-08.
 Context: The rename changed the style name, the banner, the settings prefix, the flavor sentence and two moment ideas. The release gate must pass again.
 Decision: The gate passes. 42 of 43 cases pass 3 of 3. The best-effort `no-repeated-lines` passed 2 of 3: its fixed history has "the kettle is warm", and the new Task done idea leads back to the kettle. It does not block. The style has 1,199 words of instructions (strict count) and a 1,093-character gallery.
 Source: local run of `claude plugin eval . --ablation none -j 4 --judge-model opus` with Claude Code 2.1.287, default model `claude-opus-5-5`.
+
+## 2026-11-09: Solid cover background
+Context: The covers had no background. Outside the README `<picture>` element, a page of the other theme made the text hard to read.
+Decision: Each cover has a solid background with rounded corners: `#ffffff` for light and `#0d1117` for dark (the GitHub page colors). The README looks the same on GitHub. The covers stay readable on any page.
+Source: maintainer choice, 2026-11-09. Rendered check: each cover on a page of the other theme.
