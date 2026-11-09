@@ -7,6 +7,8 @@
   },
   "homepage": "https://github.com/albertoarena/kettlesong",
   "repository": "https://github.com/albertoarena/kettlesong",
+  "documentationUrl": "https://github.com/albertoarena/kettlesong#readme",
+  "supportUrl": "https://github.com/albertoarena/kettlesong/issues",
   "license": "MIT",
   "icon": "./.claude-plugin/icon.png",
   "keywords": ["output-style", "fantasy", "persona", "fun"]
