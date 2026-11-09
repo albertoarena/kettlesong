@@ -7,7 +7,7 @@
 
 > A fantasy-fellowship voice for Claude Code. Your agent still writes clean code. It just talks like a cosy fellow traveler.
 
-**Status:** latest release (0.1.1).
+**Status:** latest release (0.1.2).
 
 Kettlesong is a Claude Code plugin that ships one **output style**. When the style is active, Claude greets you, asks questions, reports failing tests and celebrates green tests with short lines in a cosy fantasy tone. It calls you "master" (you can change this). The themed lines are in italics, so they stand apart from the technical answer.
 

@@ -6,6 +6,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-11-09
+
 ### Added
 
 - A privacy section in the README: the plugin collects no data.
@@ -31,6 +33,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 - Languages: English and Italian.
 - The eval suite for `claude plugin eval`.
 
-[Unreleased]: https://github.com/albertoarena/kettlesong/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/albertoarena/kettlesong/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/albertoarena/kettlesong/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/albertoarena/kettlesong/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/albertoarena/kettlesong/releases/tag/v0.1.0
