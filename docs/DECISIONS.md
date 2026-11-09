@@ -378,3 +378,8 @@ Source: https://code.claude.com/docs/en/plugin-marketplaces ("Write relative pat
 Context: `plugin.json` accepts an `icon` field with the path of a square image in the plugin.
 Decision: A steaming cup from `art/hobbit-tea.txt` (`c[_]` under two lines of steam), green `#1a7f37` on `#dafbe1`, the light cover colors. A 1024 px PNG at `plugin/.claude-plugin/icon.png`. The full figure was not clear at 64 px.
 Source: https://code.claude.com/docs/en/plugins-reference (Fields table, `icon`). Maintainer choice (variant A), 2026-11-09.
+
+## 2026-11-09: Attribution workflow on pull_request
+Context: GitHub blocks the `pull_request_target` event in public repositories by default from 2026-12-02. A test block on 2026-11-09 stopped the attribution workflow on two pull requests.
+Decision: Run the workflow on `pull_request`. It does not check out code. It runs only for branches in this repository, because a fork gets a read-only token.
+Source: https://docs.github.com/en/actions/reference/security/securely-using-pull_request_target
