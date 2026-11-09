@@ -368,3 +368,13 @@ Source: local run of `claude plugin eval . --ablation none -j 4 --judge-model op
 Context: The covers had no background. Outside the README `<picture>` element, a page of the other theme made the text hard to read.
 Decision: Each cover has a solid background with rounded corners: `#ffffff` for light and `#0d1117` for dark (the GitHub page colors). The README looks the same on GitHub. The covers stay readable on any page.
 Source: maintainer choice, 2026-11-09. Rendered check: each cover on a page of the other theme.
+
+## 2026-11-09: Plugin in a subfolder
+Context: The marketplace source was the repo root, so every repo file shipped with the plugin: scripts, evals, docs and `CLAUDE.md`. Users need only the manifest and the style.
+Decision: Move the plugin to `plugin/` and set the marketplace source to `./plugin`. The marketplace file stays in the root `.claude-plugin/`. The plugin and marketplace names stay `kettlesong`, so the install commands do not change. The evals still run from the repo root through the harness plugin.
+Source: https://code.claude.com/docs/en/plugin-marketplaces ("Write relative paths from the marketplace root"). Local check with Claude Code 2.1.287: `claude plugin validate` passes for the marketplace and the plugin, a local install copies only `plugin/`, and `greets-user-as-master` passes 3 of 3.
+
+## 2026-11-09: Plugin icon
+Context: `plugin.json` accepts an `icon` field with the path of a square image in the plugin.
+Decision: A steaming cup from `art/hobbit-tea.txt` (`c[_]` under two lines of steam), green `#1a7f37` on `#dafbe1`, the light cover colors. A 1024 px PNG at `plugin/.claude-plugin/icon.png`. The full figure was not clear at 64 px.
+Source: https://code.claude.com/docs/en/plugins-reference (Fields table, `icon`). Maintainer choice (variant A), 2026-11-09.

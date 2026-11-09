@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "kettlesong",
-      "source": "./",
+      "source": "./plugin",
       "description": "An output style with a short, playful fellowship voice in chat. Code and written artifacts stay clean.",
       "version": "0.1.0"
     }

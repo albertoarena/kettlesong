@@ -5,7 +5,7 @@
 set -euo pipefail
 
 root="$(cd "$(dirname "$0")/.." && pwd)"
-src="$root/output-styles/kettlesong.md"
+src="$root/plugin/output-styles/kettlesong.md"
 dst_dir="$root/harness/output-styles"
 dst="$dst_dir/kettlesong.md"
 
@@ -13,7 +13,7 @@ mkdir -p "$dst_dir"
 
 if [ ! -f "$src" ]; then
   rm -f "$dst"
-  echo "No style at output-styles/kettlesong.md. The harness runs without a style."
+  echo "No style at plugin/output-styles/kettlesong.md. The harness runs without a style."
   exit 0
 fi
 

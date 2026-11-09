@@ -9,7 +9,7 @@ These files are the source of truth. The output style contains copies. The READM
 Run all commands from the repo root.
 
 1. Edit `art/<id>.txt`. Follow the size and character rules in `docs/ART-BRIEF.md`.
-2. Copy the piece into `output-styles/kettlesong.md`, section "Text art":
+2. Copy the piece into `plugin/output-styles/kettlesong.md`, section "Text art":
    - A figure goes in a fenced `text` block, exactly as in the source.
    - The banner goes in a fenced `diff` block. Put `+  ` (a plus and two spaces) before each line.
 3. Rebuild the graders: `python3 evals/build-art-graders.py`.

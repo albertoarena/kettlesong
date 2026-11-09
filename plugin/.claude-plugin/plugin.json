@@ -8,5 +8,6 @@
   "homepage": "https://github.com/albertoarena/kettlesong",
   "repository": "https://github.com/albertoarena/kettlesong",
   "license": "MIT",
+  "icon": "./.claude-plugin/icon.png",
   "keywords": ["output-style", "fantasy", "persona", "fun"]
 }
