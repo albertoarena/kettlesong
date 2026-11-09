@@ -6,6 +6,14 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 
 ## [Unreleased]
 
+### Added
+
+- A plugin icon.
+
+### Changed
+
+- The plugin files are in `plugin/`. The install commands do not change.
+
 ## [0.1.0] - 2026-11-08
 
 ### Added
