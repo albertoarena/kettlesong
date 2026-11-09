@@ -1,9 +1,10 @@
 name: Strip attribution
 
 # Removes AI attribution lines that a platform adds to a pull request body.
-# The job does not check out code, so pull_request_target is safe here.
+# The job does not check out code. It runs only for branches in this repository,
+# because a pull request from a fork gets a read-only token.
 on:
-  pull_request_target:
+  pull_request:
     types: [opened, edited]
 
 permissions:
@@ -11,6 +12,7 @@ permissions:
 
 jobs:
   strip:
+    if: github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - name: Remove attribution lines from the body
