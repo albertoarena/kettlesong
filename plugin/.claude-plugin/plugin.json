@@ -9,6 +9,7 @@
   "repository": "https://github.com/albertoarena/kettlesong",
   "documentationUrl": "https://github.com/albertoarena/kettlesong#readme",
   "supportUrl": "https://github.com/albertoarena/kettlesong/issues",
+  "privacyPolicyUrl": "https://github.com/albertoarena/kettlesong#privacy",
   "license": "MIT",
   "icon": "./.claude-plugin/icon.png",
   "keywords": ["output-style", "fantasy", "persona", "fun"]

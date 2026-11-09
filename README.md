@@ -152,6 +152,14 @@ The style tells Claude to follow these rules. An eval suite (`evals/`) checks th
 - **The banner shows `+` signs with no color:** your client does not color `diff` blocks. The banner still reads correctly.
 - **Subagents talk normally:** this is expected. Subagents use their own system prompt.
 
+## Privacy
+
+Kettlesong collects no data. It is one output style: a Markdown file with instructions for Claude. It has no code, hooks, MCP servers or connectors, and it sends nothing to any service.
+
+The optional settings, such as `kettlesong.address`, stay in your own `CLAUDE.md`. Claude Code reads that file as usual. Kettlesong does not store or send them.
+
+Your conversations go to Anthropic under your own Claude Code terms. Kettlesong adds no other recipient.
+
 ## Disclaimer
 
 This project is a fan homage inspired by the work of J.R.R. Tolkien. It is not affiliated with, endorsed by or connected to the Tolkien Estate, Middle-earth Enterprises, or any film studio. It quotes no sentence from the books, their translations or the films. Names such as Middle-earth and Hobbit are trademarks of Middle-earth Enterprises and its licensees, used here only for reference.

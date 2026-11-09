@@ -6,6 +6,10 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 
 ## [Unreleased]
 
+### Added
+
+- A privacy section in the README: the plugin collects no data.
+
 ## [0.1.1] - 2026-11-09
 
 ### Added
