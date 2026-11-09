@@ -22,10 +22,13 @@ Read these files before you change anything:
 ```text
 kettlesong/
 ├── .claude-plugin/
-│   ├── plugin.json          # plugin manifest
 │   └── marketplace.json     # lets users install from this repo
-├── output-styles/
-│   └── kettlesong.md        # THE product
+├── plugin/                  # the published plugin (nothing else ships)
+│   ├── .claude-plugin/
+│   │   ├── plugin.json      # plugin manifest
+│   │   └── icon.png         # plugin icon
+│   └── output-styles/
+│       └── kettlesong.md    # THE product
 ├── evals/
 │   ├── SCENARIOS.md         # human-readable source of the cases
 │   └── <case-name>/         # one folder per case (claude plugin eval layout)
@@ -60,7 +63,7 @@ This project follows TDD. For prompt work, evals are the tests.
 3. Change the output style until it passes (green).
 4. Tighten the wording without breaking other cases (refactor).
 
-Do not change `output-styles/kettlesong.md` without an eval that covers the change.
+Do not change `plugin/output-styles/kettlesong.md` without an eval that covers the change.
 
 ## Hard rules
 

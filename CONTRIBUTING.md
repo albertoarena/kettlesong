@@ -9,7 +9,7 @@ A new language needs a native speaker. The names must come from the published tr
 3. Add the four cases from the template to `evals/SCENARIOS.md`, section G. Write the prompts in the new language.
 4. Create one folder for each case in `evals/`. Copy the `lang-it-*` folders and change the prompts and the graders.
 5. Run the cases and confirm that they fail (see "Run the evals").
-6. Add the style line from your language file to the "Languages" section of `output-styles/kettlesong.md`.
+6. Add the style line from your language file to the "Languages" section of `plugin/output-styles/kettlesong.md`.
 7. Run all the cases again. Every `[auto]` and `[judge]` grader must pass in 3 runs out of 3.
 8. Add the language to the list in `README.md`, section "Configure".
 
