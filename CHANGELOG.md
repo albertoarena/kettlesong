@@ -6,6 +6,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-11-09
+
 ### Added
 
 - A plugin icon.
@@ -25,5 +27,6 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 - Languages: English and Italian.
 - The eval suite for `claude plugin eval`.
 
-[Unreleased]: https://github.com/albertoarena/kettlesong/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/albertoarena/kettlesong/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/albertoarena/kettlesong/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/albertoarena/kettlesong/releases/tag/v0.1.0
